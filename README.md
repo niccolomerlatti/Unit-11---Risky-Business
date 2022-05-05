@@ -13,6 +13,43 @@ In this assignment you will build and evaluate several machine learning models t
 
 - - -
 
+## Questions
+### Final Questions Resemble
+
+1. Which model had the best balanced accuracy score?
+
+   SMOTE oversampling and combination sampling with SMOTEENN are tied for the  best balanced accuracy scores.
+
+2. Which model had the best recall score?
+
+    Naive random oversampling, Combination sampling with SMOTEENN and SMOTE oversampling are all tied for the best recall scores.
+
+3. Which model had the best geometric mean score?
+
+    All the modles had the same geometic mean score being 0.99
+
+
+#### Final Questions Ensemble
+
+1. Which model had the best balanced accuracy score?
+
+    Easy Ensemble Classifier was 0.93 making it the best balanced accuracy score
+
+2. Which model had the best recall score?
+
+    Easy Ensemble Classifier had a recall of high risk: 0.91, low risk: 0.94, average: 0.94 making it the best recall score compared to the Balanced Random Forest Classifier
+
+3. Which model had the best geometric mean score?
+
+    The model with the best geometric mean score was the Easy Ensemble Classifier with high risk: 0.93, low risk: 0.93, average: 0.93 
+
+4. What are the top three features?
+ 
+    The top three are:
+    0.079 total_rec_prncp 
+    0.068 total_rec_int
+    0.063 total_pymnt_inv
+- - -
 ## Files
 
 [Resampling Starter Notebook](Starter_Code/credit_risk_resampling.ipynb)
